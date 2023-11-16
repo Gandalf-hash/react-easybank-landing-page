@@ -1,5 +1,5 @@
 import PrimaryButton from "../primary-button";
-import { routes } from "./routes";
+import { routes } from "./routes.util";
 
 export const NavDesktop = () => {
   return (
