@@ -1,6 +1,6 @@
 import PrimaryButton from "../components/primary-button";
 
-function Home() {
+export const Home = () => {
   return (
     <div className="w-full flex lg:flex-row gap-12 max-w-full items-start relative">
       <div className="flex mt-48 flex-col text-blue justify-start items-start max-w-xl z-10">
@@ -30,6 +30,4 @@ function Home() {
       </div>
     </div>
   );
-}
-
-export default Home;
+};

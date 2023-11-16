@@ -1,6 +1,6 @@
 import PrimaryButton from "./primary-button";
 
-function Navbar() {
+export const Navbar = () => {
   return (
     <div className="w-full bg-white z-[2] flex flex-row justify-between items-center md:px-20 xl:px-20 gap-6 h-20 sticky top">
       <img src="/images/logo.svg" alt="Easy Bank Logo" className="md:w-40" />
@@ -16,6 +16,4 @@ function Navbar() {
       </div>
     </div>
   );
-}
-
-export default Navbar;
+};
