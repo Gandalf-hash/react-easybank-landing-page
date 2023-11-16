@@ -2,8 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-
 body {
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 4px;
+  background: #31cd7a;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+}
+
+a:hover {
+  color: black;
+}
+
+a:hover::after {
+  width: 100%;
 }

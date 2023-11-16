@@ -3,8 +3,9 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="flex flex-col w-full max-w-full">
+    <div>
       <Navbar />
+      <main className="flex h-screen flex-col bg-off-white w-full max-w-full"></main>
     </div>
   );
 }
