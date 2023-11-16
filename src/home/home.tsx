@@ -1,8 +1,10 @@
+import PrimaryButton from "../components/primary-button";
+
 function Home() {
   return (
     <div className="w-full flex lg:flex-row gap-12 max-w-full items-start relative">
-      <div className="flex mt-48 flex-col text-blue justify-start items-center max-w-xl z-10">
-        <h1 className="text-3xl mb-8 lg:text-6xl">
+      <div className="flex mt-48 flex-col text-blue justify-start items-start max-w-xl z-10">
+        <h1 className="text-3xl mb-10 lg:text-6xl">
           Next generation digital banking
         </h1>
         <p className="text-gray text-lg lg:tracking-[2px]">
@@ -10,6 +12,9 @@ function Home() {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
+        <div className="mt-10">
+          <PrimaryButton>Request Invite</PrimaryButton>
+        </div>
       </div>
       <div className="w-full hidden max-w-3xl lg:block xl:max-w-6xl z-0 absolute -top-40 -right-80">
         <div className="relative w-full overflow-hidden">
