@@ -7,7 +7,7 @@ function App() {
     <div>
       <NavDesktop />
       <NavMobile />
-      <main className="lg:pl-20  overflow-hidden flex h-screen flex-col bg-off-white w-full max-w-full">
+      <main className="md:pl-20 overflow-hidden flex h-screen flex-col bg-off-white w-full max-w-full">
         <Home />
       </main>
     </div>

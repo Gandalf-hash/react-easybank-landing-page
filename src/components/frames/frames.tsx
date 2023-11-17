@@ -15,11 +15,7 @@ export const BgDesktop = () => {
 export const Mockups = () => {
   return (
     <div>
-      <img
-        className="hidden md:block"
-        src="/images/image-mockups.png"
-        alt="Mockups"
-      />
+      <img className="block" src="/images/image-mockups.png" alt="Mockups" />
     </div>
   );
 };
@@ -28,7 +24,7 @@ export const MobileIllustration = () => {
   return (
     <div>
       <img
-        className="flex"
+        className="block w-full"
         src="/images/bg-intro-mobile.svg"
         alt="Mobile Illustration"
       />
