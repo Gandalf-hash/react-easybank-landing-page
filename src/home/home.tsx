@@ -1,15 +1,20 @@
-import PrimaryButton from "../components/primary-button";
+import PrimaryButton from "../components/button/primary-button";
+import {
+  BgDesktop,
+  MobileIllustration,
+  Mockups,
+} from "../components/frames/frames";
 
 export const Home = () => {
   return (
     <div className="w-full flex lg:flex-row gap-12 max-w-full items-start relative">
-      <div className="flex mt-36 flex-col text-blue justify-start items-start max-w-xl z-10">
-        <h1 className="text-3xl md:flex md:flex-col md:-space-y-12 mb-10 mt-60 lg:mt-0 lg:text-6xl">
+      <div className="flex mt-36 md:mt-28 flex-col text-blue justify-start items-start md:max-w-md lg:max-w-lg z-10">
+        <h1 className="text-3xl md:flex md:flex-col md:-space-y-10 mb-10 mt-60 md:mt-0 md:text-5xl">
           <span>Next generation</span>
           <br />
           <span>digital banking</span>
         </h1>
-        <p className="text-gray text-lg lg:tracking-[2px]">
+        <p className="text-gray text-md lg:tracking-[2px]">
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
@@ -18,28 +23,16 @@ export const Home = () => {
           <PrimaryButton>Request Invite</PrimaryButton>
         </div>
       </div>
-      <div className="w-full max-w-3xl xl:max-w-6xl z-0 absolute -top-60 -right-80">
+      <div className="w-full max-w-3xl xl:max-w-5xl z-0 absolute -top-36 xl:-top-52 md:-right-72">
         <div className="relative w-full">
-          <img
-            className="object-cover hidden lg:flex w-full h-full transition-transform transform"
-            src="/images/bg-intro-desktop.svg"
-            alt="Background Intro on Desktop"
-          />
-          <div className="z-[1] absolute top-32 right-48">
-            <img
-              className="hidden lg:flex"
-              src="/images/image-mockups.png"
-              alt="Mockups"
-            />
+          <BgDesktop />
+          <div className="z-[1] w-full max-w-md xl:max-w-2xl absolute top-20 xl:top-28 right-52 xl:right-40">
+            <Mockups />
           </div>
         </div>
       </div>
-      <div className="w-full absolute top-0 lg:hidden right-0 z-[0]">
-        <img
-          className="flex"
-          src="/images/bg-intro-mobile.svg"
-          alt="Mobile Illustration"
-        />
+      <div className="w-full absolute top-0 md:hidden right-0 z-[0]">
+        <MobileIllustration />
       </div>
     </div>
   );
