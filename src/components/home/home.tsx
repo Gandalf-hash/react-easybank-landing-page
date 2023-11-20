@@ -3,7 +3,7 @@ import { BgDesktop, MobileIllustration, Mockups } from "../frames/frames";
 
 export const Home = () => {
   return (
-    <div className="lg:pl-20 md:px-6 bg-off-white min-h-[70vh] w-full flex lg:flex-row gap-12 relative">
+    <div className="lg:pl-20 2xl:pl-60 md:px-6 bg-off-white min-h-[70vh] w-full flex lg:flex-row gap-12 relative">
       <div className="absolute w-full max-w-xl h-full -top-14 md:hidden">
         <MobileIllustration />
       </div>
