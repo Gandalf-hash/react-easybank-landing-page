@@ -30,12 +30,12 @@ export const LatestArticles = () => {
     },
   ];
   return (
-    <div className="bg-off-white xl:px-32 min-h-screen items-center w-full max-w-full flex flex-col px-6">
+    <div className="bg-off-white lg:pl-20 min-h-screen items-center md:items-start w-full max-w-full flex flex-col px-6">
       <div className="mt-32 items-start">
         <h1 className="text-4xl text-blue md:flex md:flex-col lg:tracking-[2px] mb-10">
           Latest Articles
         </h1>
-        <div className="flex flex-col w-full max-w-full lg:flex-row gap-8">
+        <div className="flex flex-col w-full max-w-7xl lg:flex-row gap-8">
           {articlesData.map((item, index) => (
             <div
               className="flex pb-12 w-full max-w-lg flex-col bg-white gap-8"
@@ -49,7 +49,7 @@ export const LatestArticles = () => {
               <div className="flex flex-col w-full space-y-6 px-2 lg:px-6">
                 <span className="text-gray text-sm  whitespace-nowrap">{`By ${item.author}`}</span>
                 <h1 className="xl:text-xl text-lg text-blue">{item.heading}</h1>
-                <p className="xl:text-md tracking-wide text-sm text-gray">
+                <p className="xl:text-md tracking-tight text-sm text-gray">
                   {item.description}
                 </p>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 function BenefitsItems() {
-  const data = [
+  const benefitsData = [
     {
       image: "/images/icon-online.svg",
       heading: "Online Banking",
@@ -29,18 +29,20 @@ function BenefitsItems() {
   ];
   return (
     <div>
-      <div className="flex flex-col md:flex-row gap-8 w-full d:items-start mt-20">
-        {data.map((item, index) => (
+      <div className="flex flex-col max-w-5xl 2xl:max-w-7xl mb-12 md:flex-row gap-8 w-full d:items-start mt-20">
+        {benefitsData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col gap-8 items-center md:items-start"
+            className="flex w-full flex-col gap-8 items-center md:items-start"
           >
-            <img className="w-16 h-16" src={item.image} alt="" />
+            <img
+              className="w-16 h-16"
+              src={item.image}
+              alt={`${item.heading}' Icon`}
+            />
             <div className="space-y-8">
               <h1 className="xl:text-2xl text-lg text-blue">{item.heading}</h1>
-              <p className="xl:text-lg tracking-wide text-sm text-gray">
-                {item.description}
-              </p>
+              <p className="text-sm text-gray">{item.description}</p>
             </div>
           </div>
         ))}
