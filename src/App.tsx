@@ -2,6 +2,7 @@ import { Home } from "./components/home/home";
 import { NavDesktop } from "./components/navbar/nav-desktop";
 import { NavMobile } from "./components/navbar/nav-mobile";
 import { About } from "./components/benefits/benefits";
+import { LatestArticles } from "./components/articles/latest-articles";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main className="overflow-hidden flex flex-col w-full max-w-full">
         <Home />
         <About />
+        <LatestArticles />
       </main>
     </div>
   );
