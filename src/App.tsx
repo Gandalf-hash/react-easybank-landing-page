@@ -1,14 +1,16 @@
 import { Home } from "./home/home";
 import { NavDesktop } from "./components/navbar/nav-desktop";
 import { NavMobile } from "./components/navbar/nav-mobile";
+import { About } from "./about/about";
 
 function App() {
   return (
     <div>
       <NavDesktop />
       <NavMobile />
-      <main className="md:pl-20 overflow-hidden flex h-screen flex-col bg-off-white w-full max-w-full">
+      <main className="overflow-hidden flex flex-col w-full max-w-full">
         <Home />
+        <About />
       </main>
     </div>
   );
