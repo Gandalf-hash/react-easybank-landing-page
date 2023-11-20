@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PrimaryButton from "../button/primary-button";
 import { routes } from "../../routes.util";
-import { Logo } from "../logo/logo";
+import { Logo } from "../frames/frames";
 
 export const NavDesktop = () => {
   const [isSticky, setSticky] = useState(false);

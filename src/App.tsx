@@ -1,7 +1,7 @@
-import { Home } from "./home/home";
+import { Home } from "./components/home/home";
 import { NavDesktop } from "./components/navbar/nav-desktop";
 import { NavMobile } from "./components/navbar/nav-mobile";
-import { About } from "./about/about";
+import { About } from "./components/benefits/benefits";
 
 function App() {
   return (

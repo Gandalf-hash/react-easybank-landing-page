@@ -37,3 +37,8 @@ a:hover {
 a:hover::after {
   width: 100%;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+}

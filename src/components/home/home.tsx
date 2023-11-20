@@ -1,9 +1,5 @@
-import PrimaryButton from "../components/button/primary-button";
-import {
-  BgDesktop,
-  MobileIllustration,
-  Mockups,
-} from "../components/frames/frames";
+import PrimaryButton from "../button/primary-button";
+import { BgDesktop, MobileIllustration, Mockups } from "../frames/frames";
 
 export const Home = () => {
   return (

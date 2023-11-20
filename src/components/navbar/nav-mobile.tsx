@@ -1,7 +1,6 @@
 import React from "react";
 import { MobileMenu } from "./mobile-menu";
-import { Logo } from "../logo/logo";
-import { CloseMenu, OpenMenu } from "../frames/frames";
+import { CloseMenu, Logo, OpenMenu } from "../frames/frames";
 
 export const NavMobile = () => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
