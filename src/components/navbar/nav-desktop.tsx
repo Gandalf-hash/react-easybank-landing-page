@@ -24,7 +24,7 @@ export const NavDesktop = () => {
   }, []);
 
   return (
-    <div className="hidden px-6 lg:px-20 2xl:px-60 w-full bg-white z-[20] md:flex flex-row justify-between items-center  gap-4 h-20 sticky top">
+    <div className="hidden px-6 lg:px-20 2xl:px-40 w-full bg-white z-[20] md:flex flex-row justify-between items-center  gap-4 h-20 sticky top">
       <Logo />
       <div className="flex flex-row gap-6 2xl:gap-12 text-gray">
         {routes.map((route) => (
@@ -34,7 +34,7 @@ export const NavDesktop = () => {
         ))}
       </div>
       <div>
-        <PrimaryButton>Request Invite</PrimaryButton>
+        <PrimaryButton></PrimaryButton>
       </div>
     </div>
   );

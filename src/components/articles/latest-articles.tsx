@@ -1,4 +1,4 @@
-export const LatestArticles = () => {
+export const LatestArticlesSection = () => {
   const articlesData = [
     {
       image: "/images/image-currency.jpg",
@@ -30,7 +30,7 @@ export const LatestArticles = () => {
     },
   ];
   return (
-    <div className="bg-off-white 2xl:pl-60 lg:pl-20 min-h-screen items-center lg:items-start w-full max-w-full flex flex-col px-6">
+    <div className="bg-off-white 2xl:pl-40 lg:pl-20 min-h-screen items-center lg:items-start w-full max-w-full flex flex-col px-6">
       <div className="mt-32 items-start">
         <h1 className="text-4xl text-blue md:flex md:flex-col lg:tracking-[2px] mb-10">
           Latest Articles
@@ -48,7 +48,9 @@ export const LatestArticles = () => {
               />
               <div className="flex flex-col w-full space-y-6 px-2 lg:px-6">
                 <span className="text-gray text-sm  whitespace-nowrap">{`By ${item.author}`}</span>
-                <h1 className="xl:text-xl text-lg text-blue">{item.heading}</h1>
+                <h1 className="xl:text-xl hover:text-secondary-color hover:cursor-pointer text-lg text-blue">
+                  {item.heading}
+                </h1>
                 <p className="xl:text-md tracking-tight text-sm text-gray">
                   {item.description}
                 </p>

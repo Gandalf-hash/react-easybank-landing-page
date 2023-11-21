@@ -42,3 +42,7 @@ a:hover::after {
   position: sticky;
   top: 0;
 }
+
+.hover\:cursor-pointer:hover path {
+  fill: #31cd7a;
+}

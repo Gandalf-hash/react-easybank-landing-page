@@ -1,8 +1,9 @@
 import { Home } from "./components/home/home";
 import { NavDesktop } from "./components/navbar/nav-desktop";
 import { NavMobile } from "./components/navbar/nav-mobile";
-import { About } from "./components/benefits/benefits";
-import { LatestArticles } from "./components/articles/latest-articles";
+import { LatestArticlesSection } from "./components/articles/latest-articles";
+import { Footer } from "./components/footer/footer";
+import { BenefitsSection } from "./components/benefits/benefits";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <NavMobile />
       <main className="overflow-hidden flex flex-col w-full max-w-full">
         <Home />
-        <About />
-        <LatestArticles />
+        <BenefitsSection />
+        <LatestArticlesSection />
+        <Footer />
       </main>
     </div>
   );
