@@ -30,7 +30,7 @@ export const LatestArticles = () => {
     },
   ];
   return (
-    <div className="bg-off-white lg:pl-20 2xl:pl-60 min-h-screen items-center lg:items-start w-full max-w-full flex flex-col px-6">
+    <div className="bg-off-white 2xl:pl-60 lg:pl-20 min-h-screen items-center lg:items-start w-full max-w-full flex flex-col px-6">
       <div className="mt-32 items-start">
         <h1 className="text-4xl text-blue md:flex md:flex-col lg:tracking-[2px] mb-10">
           Latest Articles

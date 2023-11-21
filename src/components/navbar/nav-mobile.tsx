@@ -10,7 +10,7 @@ export const NavMobile = () => {
   };
 
   return (
-    <div className="p-4 lg:hidden">
+    <div className="p-4 md:hidden">
       <div className="mx-auto flex flex-row justify-between items-center">
         <Logo />
         {!isOpen ? (
