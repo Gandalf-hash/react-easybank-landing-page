@@ -29,7 +29,7 @@ function BenefitsItems() {
   ];
   return (
     <div>
-      <div className="flex flex-col  max-w-5xl 2xl:max-w-7xl mb-12 md:flex-row gap-8 w-full md:items-start mt-20">
+      <div className="flex flex-col  max-w-5xl xl:max-w-7xl mb-12 md:flex-row gap-8 w-full md:items-start mt-20">
         {benefitsData.map((item, index) => (
           <div
             key={index}
