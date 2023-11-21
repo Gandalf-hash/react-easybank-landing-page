@@ -11,30 +11,30 @@ export const Footer = () => {
           <SocialMediaIcons />
         </div>
         <div>
-          <li className="text-white mb-6 flex flex-col gap-5 list-none">
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+          <ul className="text-white mb-6 flex flex-col gap-5 list-none">
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               About Us
-            </ul>
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+            </li>
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               Contact
-            </ul>
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+            </li>
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               Blog
-            </ul>
-          </li>
+            </li>
+          </ul>
         </div>
         <div>
-          <li className="text-white mb-6 flex flex-col gap-5 list-none">
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+          <ul className="text-white mb-6 flex flex-col gap-5 list-none">
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               Careers
-            </ul>
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+            </li>
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               Support
-            </ul>
-            <ul className="hover:text-secondary-color hover:cursor-pointer">
+            </li>
+            <li className="hover:text-secondary-color hover:cursor-pointer">
               Privacy Policy
-            </ul>
-          </li>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="flex flex-col items-center gap-8">

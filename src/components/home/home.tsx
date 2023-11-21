@@ -3,11 +3,11 @@ import { BgDesktop, MobileIllustration, Mockups } from "../frames/frames";
 
 export const Home = () => {
   return (
-    <div className="lg:pl-20 2xl:pl-40 md:px-6 bg-off-white min-h-[70vh] w-full flex lg:flex-row gap-12 relative">
+    <div className="lg:pl-20 2xl:pl-40 bg-off-white min-h-[70vh] w-full flex lg:flex-row gap-12 relative">
       <div className="absolute w-full max-w-xl h-full -top-14 md:hidden">
         <MobileIllustration />
       </div>
-      <div className="flex mt-48 md:mt-8 lg:mt-28  flex-col text-blue items-center md:items-start md:max-w-xs lg:max-w-sm md:z-10">
+      <div className="flex px-6 mt-48 md:mt-8 lg:mt-28  flex-col text-blue items-center md:items-start md:max-w-xs lg:max-w-sm md:z-10">
         <h1 className="text-4xl md:flex md:flex-col lg:text-5xl md:-space-y-10 mb-10 mt-60 md:mt-0">
           <span>Next generation</span>
           <br />
