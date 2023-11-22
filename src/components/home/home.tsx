@@ -4,7 +4,7 @@ import { BgDesktop, MobileIllustration, Mockups } from "../frames/frames";
 export const Home = () => {
   return (
     <div className="lg:pl-20 md:px-6 2xl:pl-40 bg-off-white pb-14 xl:pb-0 xl:min-h-[70vh] w-full flex lg:flex-row gap-12 relative">
-      <div className="absolute w-full max-w-xl h-full -top-14 md:hidden">
+      <div className="absolute w-full max-w-xl  -top-14 right-0 md:hidden">
         <MobileIllustration />
       </div>
       <div className="flex px-6 md:px-0 mt-48 md:mt-8 lg:mt-28  flex-col text-blue items-center md:items-start md:max-w-xs lg:max-w-sm md:z-10">
@@ -22,10 +22,10 @@ export const Home = () => {
           <PrimaryButton></PrimaryButton>
         </div>
       </div>
-      <div className="w-full max-w-2xl lg:max-w-3xl xl:max-w-[1100px] md:z-0 absolute -top-36 xl:-top-60 md:-right-72">
+      <div className="w-full max-w-[740px] lg:max-w-3xl xl:max-w-[1100px] md:z-0 absolute -top-36 xl:-top-60 md:-right-72">
         <div>
           <BgDesktop />
-          <div className="z-[1] w-full max-w-sm lg:max-w-md xl:max-w-3xl absolute top-2 md:top-20 xl:top-28 md:right-56 xl:right-40">
+          <div className="z-[1] w-full max-w-md lg:max-w-md xl:max-w-3xl absolute right-0 md:top-20 xl:top-28 md:right-56 xl:right-40">
             <Mockups />
           </div>
         </div>
