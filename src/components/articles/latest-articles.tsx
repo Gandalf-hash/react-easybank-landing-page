@@ -30,7 +30,7 @@ export const LatestArticlesSection = () => {
     },
   ];
   return (
-    <div className="bg-off-white min-h-[95vh] 2xl:pl-40 lg:pl-20  items-center lg:items-start w-full max-w-full flex flex-col px-6">
+    <div className="bg-off-white xl:min-h-[95vh] 2xl:pl-40 lg:pl-20 pb-16 items-center lg:items-start w-full max-w-full flex flex-col px-6">
       <div className="mt-32 items-start">
         <h1 className="text-4xl text-blue md:flex md:flex-col lg:tracking-[2px] mb-10">
           Latest Articles
