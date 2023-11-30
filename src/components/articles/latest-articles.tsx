@@ -35,7 +35,7 @@ export const LatestArticlesSection = () => {
         <h1 className="text-4xl text-blue md:flex md:flex-col lg:tracking-[2px] mb-10">
           Latest Articles
         </h1>
-        <div className="flex flex-col w-full max-w-7xl lg:flex-row gap-8">
+        <div className="md:grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8">
           {articlesData.map((item, index) => (
             <div
               className="flex pb-12 w-full max-w-lg flex-col bg-white gap-8"

@@ -29,18 +29,18 @@ function BenefitsItems() {
   ];
   return (
     <div>
-      <div className="flex flex-col  max-w-5xl xl:max-w-7xl mb-12 md:flex-row gap-8 w-full md:items-start mt-20">
+      <div className=" grid-cols-1 md:grid md:grid-cols-2 max-w-5xl xl:max-w-7xl mb-12 lg:grid-cols-4 gap-8 w-full md:items-start mt-20">
         {benefitsData.map((item, index) => (
           <div
             key={index}
-            className="flex w-full flex-col gap-8 items-center md:items-start"
+            className="flex w-full flex-col mb-8 gap-8 items-center text-center md:text-start md:items-start"
           >
             <img
               className="w-16 h-16"
               src={item.image}
               alt={`${item.heading}' Icon`}
             />
-            <div className="space-y-8">
+            <div className="space-y-8  max-w-lg">
               <h1 className="xl:text-2xl text-lg text-blue">{item.heading}</h1>
               <p className="text-sm text-gray">{item.description}</p>
             </div>
